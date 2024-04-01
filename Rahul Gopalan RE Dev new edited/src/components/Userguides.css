@@ -1,0 +1,443 @@
+.user-guide-container {
+  position: relative;
+}
+
+.user-guide-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 41px;
+  background: linear-gradient(180deg, #171717, #811b1b);
+  width: 442px;
+  height: 162px;
+  color: white;
+  font-size: 2rem;
+}
+
+.popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.popup-content {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 800px;
+  height: 600px;
+  overflow: auto;
+  z-index: 2;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.user-guide-steps-container {
+  margin-top: 2rem;
+}
+
+.user-guide-step-item {
+  margin-bottom: 1.5rem;
+}
+
+.step-number {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.step-description {
+  font-size: 1.2rem;
+}
+
+.close-popup-button {
+  margin-top: 2rem;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+.user-guides {
+  /* max-width: 800px; */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffc5c5;
+}
+
+.user-guides h2 {
+  font-size: 5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.user-guides ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-guides li {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 20px;
+  background: linear-gradient(45deg, #ff00ff, #00ffff, #ffff00);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.user-guides h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.user-guides p {
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+}
+
+.user-guides {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffc5c5;
+  position: relative; /* Add relative positioning */
+}
+
+.user-guides h2 {
+  font-size: 5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.user-guides ol {
+  list-style-type: none;
+  padding: 0;
+  position: relative; /* Add relative positioning */
+}
+
+.user-guides li {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 20px;
+  background: #b87407;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  position: relative; /* Add relative positioning */
+}
+
+.user-guides h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.user-guides p {
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+}
+
+/* Arrows */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.arrow::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: black;
+  top: 50%;
+  left: calc(100% + 10px);
+  transform: translateY(-50%);
+}
+
+/* Spotlight effect */
+.user-guides li:hover {
+  box-shadow: 0 0 60px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6), 0 0 10px rgba(255, 255, 255, 0.4);
+}
+
+.user-guides {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  position: relative; /* Add relative positioning */
+}
+
+.user-guides h2 {
+  font-size: 5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+  position: relative; /* Add relative positioning */
+}
+
+.user-guides h2::after {
+  content: "";
+  position: absolute;
+  bottom: -10px; /* Position the line below the title */
+  left: 50%; /* Center the line */
+  width: 10000px; /* Adjust the width of the line */
+  height: 2px; /* Adjust the height of the line */
+  background-color: black; /* Set the color of the line */
+  transform: translateX(-50%); /* Center the line */
+}
+
+.user-guides ol {
+  list-style-type: none;
+  padding: 0;
+  position: relative; /* Add relative positioning */
+}
+
+.user-guides h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.user-guides p {
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+}
+
+/* Step blocks */
+.user-guides li:nth-child(even) {
+  float: right; /* Align even blocks to the right */
+}
+
+.user-guides li:nth-child(odd) {
+  float: left; /* Align odd blocks to the left */
+}
+
+/* Arrows */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.arrow::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: black;
+}
+
+.arrow.left::before {
+  left: 100%; /* Position the arrow to the right of the block */
+  transform: translateX(10px) translateY(-50%); /* Adjust positioning */
+}
+
+.arrow.right::before {
+  right: 100%; /* Position the arrow to the left of the block */
+  transform: translateX(-60px) translateY(-50%); /* Adjust positioning */
+}
+
+/* Arrows */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.arrow::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: black;
+}
+
+.arrow.left::before {
+  left: 100%; /* Position the arrow to the right of the block */
+  transform: translateX(10px) translateY(-50%); /* Adjust positioning */
+}
+
+.arrow.right::before {
+  right: 100%; /* Position the arrow to the left of the block */
+  transform: translateX(-60px) translateY(-50%); /* Adjust positioning */
+}
+
+/* Additional styles to make arrows visible */
+.user-guides li {
+  position: relative; /* Add relative positioning */
+}
+
+.user-guides li::after {
+  content: "";
+  position: absolute;
+  width: 20px; /* Adjust arrow width */
+  height: 20px; /* Adjust arrow height */
+  background-color: black; /* Arrow color */
+  border-radius: 50%; /* Make arrow circular */
+  top: 50%; /* Position arrow in the middle vertically */
+  transform: translateY(-50%); /* Adjust vertical positioning */
+}
+
+.user-guides li:nth-child(odd)::after {
+  left: 100%; /* Position arrow to the right of the block */
+  margin-left: 10px; /* Adjust distance between block and arrow */
+}
+
+.user-guides li:nth-child(even)::after {
+  right: 100%; /* Position arrow to the left of the block */
+  margin-right: 10px; /* Adjust distance between block and arrow */
+}
+
+/* Hide default list bullets */
+.user-guides ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Create custom arrows */
+.user-guides li::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+.user-guides li:nth-child(odd)::before {
+  border-right: 10px solid black; /* Arrow pointing to the right */
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.user-guides li:nth-child(even)::before {
+  border-left: 10px solid black; /* Arrow pointing to the left */
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Additional styles for spacing */
+.user-guides li {
+  position: relative;
+  padding-left: 20px; /* Adjust spacing between arrow and text */
+  margin-bottom: 40px;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 20px;
+  background: #b87407;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Arrows */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.arrow::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: black;
+}
+
+.arrow.left::before {
+  left: 100%; /* Position the arrow to the right of the block */
+  transform: translateX(10px) translateY(-50%); /* Adjust positioning */
+}
+
+.arrow.right::before {
+  right: 100%; /* Position the arrow to the left of the block */
+  transform: translateX(-60px) translateY(-50%); /* Adjust positioning */
+}
+
+/* Additional styles to make arrows visible */
+.user-guides li {
+  position: relative; /* Add relative positioning */
+}
+
+.user-guides li::after {
+  content: "";
+  position: absolute;
+  width: 20px; /* Adjust arrow width */
+  height: 20px; /* Adjust arrow height */
+  background-color: black; /* Arrow color */
+  border-radius: 50%; /* Make arrow circular */
+  top: 50%; /* Position arrow in the middle vertically */
+  transform: translateY(-50%); /* Adjust vertical positioning */
+}
+
+.user-guides li:nth-child(odd)::after {
+  left: 100%; /* Position arrow to the right of the block */
+  margin-left: 10px; /* Adjust distance between block and arrow */
+}
+
+.user-guides li:nth-child(even)::after {
+  right: 100%; /* Position arrow to the left of the block */
+  margin-right: 10px; /* Adjust distance between block and arrow */
+}
+
+/* Hide default list bullets */
+.user-guides ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Create custom arrows */
+.user-guides li::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+.user-guides li:nth-child(odd)::before {
+  border-right: 10px solid black; /* Arrow pointing to the right */
+  right: calc(100% + 20px); /* Position arrow to extend to the next box */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.user-guides li:nth-child(even)::before {
+  border-left: 10px solid black; /* Arrow pointing to the left */
+  left: calc(100% + 20px); /* Position arrow to extend to the next box */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Additional styles for spacing */
+.user-guides li {
+  position: relative;
+  padding-left: 20px; /* Adjust spacing between arrow and text */
+  margin-bottom: 40px;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 20px;
+  background: #b87407;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}

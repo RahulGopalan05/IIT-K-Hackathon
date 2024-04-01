@@ -1,0 +1,68 @@
+.uwucon {
+  background-color: #f1f1f1;
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: rgb(221, 134, 47); 
+  background-size: 200% 200%;
+  color: black; /* Changed text color to black */
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.contact-container h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.info-icons {
+  display: flex;
+  flex-direction: column; /* Arrange buttons in a single column */
+  align-items: center; /* Align buttons to the center */
+}
+
+.dropdown-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s, transform 0.3s; /* Added transition effect */
+}
+
+.dropdown-btn:hover {
+  background-color: #555; /* Added hover effect */
+  transform: scale(1.1); /* Scale up on hover */
+}
+
+.icon img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.icon p {
+  margin-top: 5px; /* Add space between button and text */
+}
+.dropdown-text {
+  font-size: 2rem; /* Adjust font size as needed */
+  color: black;
+  padding: 10px;
+  border: 2px solid black; /* Add border around the text */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  margin-top: 10px; /* Add spacing between button and text */
+  background-color: rgba(255, 175, 63, 0.8); /* Adjust opacity as needed */
+}
+
+.dropdown-btn:hover {
+  background-color: #ffc677; /* Light orange on hover */
+}
+
+.dropdown {
+  margin-bottom: 10px; /* Add gap between buttons */
+}

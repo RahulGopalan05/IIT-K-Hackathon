@@ -1,0 +1,39 @@
+.click-to-explore {
+  width: 1556px;
+  border-radius: 38px;
+  background-color: #000;
+  height: 166px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0 278px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 64px;
+  color: #fff;
+  font-family: "Barlow Condensed";
+  border: none; /* Removes the default button border */
+  cursor: pointer; /* Changes the cursor to a hand when hovering over the button */
+}
+
+.frame55 {
+  width: 1556px;
+  border-radius: 38px;
+  background-color: #000;
+  height: 166px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0 278px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 64px;
+  color: #fff;
+  font-family: "Barlow Condensed";
+}

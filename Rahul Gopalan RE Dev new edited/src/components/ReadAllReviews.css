@@ -1,0 +1,14 @@
+.read-all-reviews {
+  margin: 0;
+  position: absolute;
+  top: 295px;
+  left: 162px;
+  font-size: inherit;
+  line-height: 125%;
+  font-weight: 400;
+  font-family: inherit;
+  color: #fff;
+  display: inline-block;
+  width: 558px;
+  height: 96px;
+}

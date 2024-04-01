@@ -1,0 +1,29 @@
+.vector-icon2,
+.vector-icon3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 101.5px;
+  height: 122px;
+}
+.vector-icon3 {
+  top: 46px;
+  left: 31px;
+  width: 39.9px;
+  height: 30.5px;
+  z-index: 1;
+}
+.shieldcheck,
+.vector-parent {
+  height: 122px;
+  width: 102px;
+  position: relative;
+}
+.shieldcheck {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

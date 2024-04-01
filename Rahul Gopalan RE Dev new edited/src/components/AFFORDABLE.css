@@ -1,0 +1,14 @@
+.affordable {
+  position: absolute;
+  top: 222px;
+  left: 864px;
+  font-size: 26px;
+  line-height: 125%;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 282px;
+  height: 33px;
+}

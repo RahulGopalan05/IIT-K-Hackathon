@@ -1,0 +1,9 @@
+.arrowrightcircle-icon {
+  position: absolute;
+  top: 328px;
+  left: 0;
+  width: 101px;
+  height: 101px;
+  overflow: hidden;
+  object-fit: contain;
+}

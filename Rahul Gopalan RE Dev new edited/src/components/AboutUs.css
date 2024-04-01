@@ -1,0 +1,17 @@
+.about-us1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 60px;
+  left: 521px;
+  font-size: 36px;
+  line-height: 125%;
+  font-family: "Barlow Condensed";
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  width: 186px;
+  height: 70px;
+}

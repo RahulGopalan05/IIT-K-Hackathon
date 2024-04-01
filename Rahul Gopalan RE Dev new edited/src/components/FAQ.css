@@ -1,0 +1,160 @@
+.faq-container {
+  position: relative;
+  margin-left: 30px;
+  line-height: 30px;
+  background-color: #ffffff;
+}
+
+.faq-button {
+  position: relative; /* Changed from absolute to relative */
+  border-radius: 41px;
+  background: linear-gradient(180deg, #171717, #811b1b);
+  width: 442px;
+  height: 162px;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer; /* Added to change cursor on hover */
+}
+
+.popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.popup-content {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 90%; /* Increased from 800px to 90% of the screen width */
+  height: 90%; /* Increased from 600px to 90% of the screen height */
+  max-width: 800px; /* Added to prevent the popup from becoming too wide on large screens */
+  max-height: 600px; /* Added to prevent the popup from becoming too tall on large screens */
+  overflow: auto;
+  z-index: 2;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.faq-item {
+  margin:0 auto;
+  margin-bottom: 40px;
+  padding: 30px;
+  max-width: 800px;
+  background: #857d7d;
+  background-size: 200% 200%;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 1.4em;
+  transition: color 0.4s, background-position 0.4s;
+}
+
+.faq-item:hover {
+  color: #000;
+  background-position: right center;
+}
+
+.faq-question {
+  font-size: 2rem;
+  font-family: 'Times New Roman', serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.faq-answer {
+  font-size: 1.6rem;
+  font-family: 'Times New Roman', serif;
+  text-align: justify;
+}
+
+.faq-question {
+  font-size: 1.5rem;
+  font-family: 'Times New Roman', serif;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.faq-answer {
+  font-size: 1.3rem;
+  font-family: 'Times New Roman', serif;
+}
+
+.close-popup-button {
+  margin-top: 1rem;
+  cursor: pointer; /* Added to change cursor on hover */
+}
+
+.faq-answer {
+  display: none; /* Initially hide the answer */
+}
+
+.faq-question {
+  cursor: pointer; /* Add cursor pointer to indicate clickable */
+}
+
+.faq-item.active .faq-answer {
+  display: block; /* Show the answer when .faq-item has .active class */
+}
+
+.faq-item {
+  margin-bottom: 10px; /* Adjust margin to make buttons closer */
+  padding: 20px; /* Adjust padding for button size */
+  width: calc(100% - 40px); /* Adjust width to fit within container */
+  background-color: #a29797;
+  border: 2px solid #000000; /* Add border for rectangular shape */
+  border-radius: 8px; /* Add border radius for rounded corners */
+  cursor: pointer;
+  position: relative; /* Add position relative for plus icon positioning */
+}
+
+.toggle-icon {
+  position: absolute;
+  top: 50%;
+  right: 20px; /* Adjust right padding for icon placement */
+  transform: translateY(-50%);
+}
+
+.faq-answer {
+  display: none;
+  margin-top: 10px; /* Adjust margin to create space for answer */
+}
+
+.faq-item.active .faq-answer {
+  display: block;
+}
+
+.faq-container {
+  text-align: center; /* Center-align the content */
+}
+
+.faq-title {
+  font-family: 'Times New Roman', serif;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 40px; /* Increase margin below the title */
+  margin-top: 40px; /* Increase margin at the top */
+  position: relative; /* Set position to relative to allow positioning of line */
+}
+
+.faq-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -25px; /* Adjust position of the line */
+  width: 100%;
+  height: 2px; /* Set height of the line */
+  background-color: black; /* Set color of the line */
+}

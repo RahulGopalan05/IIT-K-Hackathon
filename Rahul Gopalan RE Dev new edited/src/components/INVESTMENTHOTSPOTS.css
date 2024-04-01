@@ -1,0 +1,14 @@
+.investment-hotspots {
+  position: absolute;
+  top: 220px;
+  left: 453px;
+  font-size: 26px;
+  line-height: 125%;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 318px;
+  height: 37px;
+}

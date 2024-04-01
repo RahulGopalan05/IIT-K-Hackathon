@@ -1,0 +1,14 @@
+.popular {
+  position: absolute;
+  top: 222px;
+  left: 160px;
+  font-size: 26px;
+  line-height: 125%;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 109px;
+  height: 33px;
+}

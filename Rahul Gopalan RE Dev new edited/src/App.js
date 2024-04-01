@@ -94,6 +94,7 @@ function App() {
       <Route path="/reviewpage" element={<ReviewPage />} />
       <Route path="/FAQPage" element={<FAQPage />} />
       
+      
       <Route path="/market" element={<MarketPage />} />
        
     </Routes>

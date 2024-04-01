@@ -525,7 +525,7 @@ function truncateDescription(description, url) {
       </div>
       <div className="frame24">
         <div className="frame25">
-          <FAQ />
+          <FAQ /> 
           <Link to="/contact-info" className="contact-link">
             <button className="ci contact-information">Contact Information</button>
           </Link>
